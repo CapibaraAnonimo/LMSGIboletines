@@ -1,0 +1,25 @@
+body{
+    background-color: #284b5b;
+}
+.cuerpo{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: 0 0 5px #ac3bbb, 0 0 7px #2525ff;
+}
+h2{
+    color: #30b0e5;
+}
+.centrado{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: 20px;
+}

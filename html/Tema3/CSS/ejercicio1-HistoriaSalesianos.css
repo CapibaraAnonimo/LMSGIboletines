@@ -1,0 +1,24 @@
+body{
+    background-color: #264653;
+}
+h1{
+    text-align: center;
+    color: #2a9d8f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-indent: 40pt;
+    text-align: justify;
+    color: #e9c46a;
+}
+pre{
+    color: #e9c46a;
+}
+h2{
+    color: #2a9d8f;
+    font-variant: small-caps;
+}
+a{
+    text-decoration: none;
+    color: #e76f51;
+}

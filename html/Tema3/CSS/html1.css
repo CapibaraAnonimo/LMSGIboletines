@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+}
+
+.centrado {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    color: tomato;
+}
+
+.derecha {
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12pt;
+    color: turquoise;
+}
+
+h1{
+    color: slateblue;
+    font-size: 24pt;
+    text-align: center;
+}
