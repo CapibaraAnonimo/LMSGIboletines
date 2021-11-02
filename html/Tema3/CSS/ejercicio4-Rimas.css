@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "oldLondon";
+    src: url(../fuentes/OldLondon.ttf);
+}
+body{
+    background-color: #284b5b;
+    font-family: oldLondon, sans-serif;
+}
+.cuerpo{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+}
+.texto{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 15pt;
+    display: block;
+    margin: auto;
+    width: 28%;
+    line-height: 1.2;   /*Altura base de linea 1.15*/
+
+}
+h1{
+    font-size: 45pt;
+    text-align: center;
+    font-weight: 500;
+}
+h2{
+    font-size: 30pt;
+    text-align: center;
+    font-weight: 500;
+}
