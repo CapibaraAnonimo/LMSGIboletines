@@ -21,8 +21,10 @@ h2{
     margin-right: auto;
 }
 p{
-    display: block;
+    text-align: justify;
     font-size: 20px;
     text-indent: 50pt;
-    width: 90%;
+    width: 83%;
+    position: relative;
+    left: 50px;
 }
