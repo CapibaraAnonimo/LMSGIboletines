@@ -5,6 +5,7 @@ body{
     background-color: white;
     width: 75%;
     margin: auto;
+    margin-bottom: 50px;
 }
 h1{
     text-align: center;
@@ -14,8 +15,8 @@ h1{
 h2{
     color: #30b0e5;
 }
-.centrado{              /*Uso display block y margin para poder usar la clase para centrar independientemente */
-    display: block;     /*de lo que quiera  centrar sin tener que usar divs*/
+.centrado{
+    display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
