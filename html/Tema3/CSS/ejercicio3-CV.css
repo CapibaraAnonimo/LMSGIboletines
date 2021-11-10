@@ -1,0 +1,28 @@
+body{
+    background-color: #284b5b;
+}
+.cuerpo{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+pre{
+    padding: 20px;
+    border: groove slategrey 5px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
