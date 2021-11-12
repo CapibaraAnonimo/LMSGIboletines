@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Mohave";
+    src: url(../fonts/Mohave-Regular.ttf);
+}
+body{
+    background-color: rgb(225, 225, 225);
+}
+h1{
+    color: rgb(0, 78, 198);
+    font-size: 2.8em;
+    font-weight: 500;
+    font-family: Calibri, Arial, sans-serif;
+    letter-spacing: 5px;
+}
+.subtitulo{
+    font-family: Mohave, sans-serif;
+    font-size: 1.4em;
+    color: rgb(114, 114, 114);
+    letter-spacing: 0px;
+}
+.fecha{
+    text-transform: uppercase;
+    font-family: initial;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(142, 142, 142);
+    letter-spacing: -0.5px;
+    text-align: right;
+}
+p{
+    font-family: Helvetica, Georgia, 'Times New Roman', serif;
+    font-size: 0.9em;
+    color: rgb(102, 102, 102);
+}
+.strong{
+    font-weight: bold;
+}
+.imagenCab{
+    width: 35%;
+    display: block;
+    margin: auto;
+}
