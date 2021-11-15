@@ -1,0 +1,27 @@
+body{
+    background-color: #284b5b;
+}
+.cuerpo{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-left: 75px;
+    font-size: 25px;
+}
+ol{
+    margin-left: 75px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
