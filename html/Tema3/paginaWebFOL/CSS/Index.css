@@ -22,6 +22,12 @@ ol{
     margin-left: 75px;
     font-size: 25px;
 }
+p{
+    text-align: justify;
+    width: 85%;
+    margin-left: 75px;
+    font-size: 25px;
+}
 a{
     text-decoration: none;
 }
