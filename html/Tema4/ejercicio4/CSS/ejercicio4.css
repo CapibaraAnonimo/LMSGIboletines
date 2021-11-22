@@ -19,6 +19,7 @@ main{
     border-radius: 20px;
     width: 75%;
     margin-right: 5px;
+    padding: 20px;
 }
 aside{  
     width: 25%;
@@ -28,5 +29,11 @@ aside{
     border-color: turquoise;
     border-style: solid;
     border-width: 5px;
+    border-radius: 20px;
+}
+.recuadradoVacio{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
     border-radius: 20px;
 }
