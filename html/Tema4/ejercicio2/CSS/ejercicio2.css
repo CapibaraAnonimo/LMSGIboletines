@@ -1,0 +1,35 @@
+@font-face {
+    font-family: kristen;
+    src: url(../fuentes/kristen-itc.ttf);
+}
+@font-face {
+    font-family: berlinSansFB;
+    src: url(../fuentes/04435_BerlinSansFB.ttf);
+}
+.contenedor{
+    background: url(../imagenes/fondo_jovenes.png), url(../imagenes/fondo_trama.png);
+    background-size: 85%, 100%;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat, repeat;
+    display: flex;
+    width: 800px;
+    height: 665px;
+    border-color: brown;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 50px;
+    flex-basis: content;
+}
+p{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    height: fit-content;
+    font-family: kristen, berlinSansFB, arial;
+}
