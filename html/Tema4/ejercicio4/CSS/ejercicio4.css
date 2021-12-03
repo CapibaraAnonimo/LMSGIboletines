@@ -1,5 +1,9 @@
 header{
-    display: flex;
+    background-image: url("../imagenes/AbetosBanner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1920;
+    height: 200px;
 }
 img{
     width: 100%;
@@ -9,6 +13,7 @@ img{
     margin: auto;
 }
 .contenedor{
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
 }
@@ -21,7 +26,7 @@ main{
     margin-right: 5px;
     padding: 20px;
 }
-aside{  
+aside{
     width: 25%;
     margin-left: 5px;
 }
@@ -31,7 +36,7 @@ aside{
     border-width: 5px;
     border-radius: 20px;
 }
-.recuadradoVacio{
+/*.recuadradoVacio{
     border-color: transparent;
     border-style: solid;
     border-width: 0px;
