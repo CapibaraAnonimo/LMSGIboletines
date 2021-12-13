@@ -1,0 +1,17 @@
+header{
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+main{
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+}
+.fijo{
+    position: fixed;
+    width: 100%;
+}
+.todo{
+    top: 100px;
+}
