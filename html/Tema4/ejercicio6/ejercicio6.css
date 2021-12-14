@@ -1,17 +1,52 @@
-header{
-    border-width: 1px;
-    border-style: solid;
-    border-color: lightgray;
-}
 main{
-    border-width: 1px;
-    border-style: solid;
-    border-color: lightgray;
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+h1{
+    font-weight: lighter;
+}
+h2{
+    font-weight: lighter;
 }
 .fijo{
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 1px 3px lightgray;
 }
 .todo{
-    top: 100px;
+    display: relative;
+    top: 60px;
+    flex-direction: column;
+}
+.hueco{
+    height: 50px;
+}
+.derecha{
+    text-align: end;
+}
+.centrado{
+    text-align: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.recuadrado{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    margin: 7px;
+}
+.recuadroAzul{
+    background-color: #0E63AE;
+    color: white;
 }
