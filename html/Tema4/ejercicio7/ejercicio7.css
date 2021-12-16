@@ -1,6 +1,51 @@
+@font-face {
+    font-family: pokemon_lleno;
+    src: url(fuentes/Pokemon\ Solid.ttf);
+}
+@font-face {
+    font-family: pokemon_vacio;
+    src: url(fuentes/Pokemon\ Hollow.ttf);
+}
 body{
     background-color: #4F81BE;
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: repeat;
 }
-imagen{
-    
+header{
+    width: 100;
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'pokemon_vacio', sans-serif;
+    margin-top: 0;      /*Esto es un poco raro pero es por la fuente que tiene una altura por arriba y*/
+    margin-bottom: 0;   /*por abajo muy alta, se puede ver mirando las dimensiones, aún así queda un poco alto*/
+}
+main{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+.cabezera{
+    margin: auto;
+}
+.imagen{
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    flex-basis: 300px;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
