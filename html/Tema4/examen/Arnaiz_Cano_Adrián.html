@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Belenes</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<style type="text/css">
+		body {
+			background-color: #2c5017;
+		}
+
+		header {
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			margin-top: 1%;
+			margin-bottom: 3%;
+			font-family: Verdana, sans-serif;
+			color: white;
+		}
+
+		h1 {
+			font-family: inherit;
+			margin: inherit;
+			width: fit-content;
+		}
+
+		h2 {
+			font-family: inherit;
+			margin: inherit;
+			width: fit-content;
+		}
+		p{
+			font-size: 17px;
+			width: fit-content;
+		}
+		.todo {
+			display: flex;
+			flex-direction: column;
+			width: 85%;
+			max-width: 800px;
+			min-width: 300px;
+			margin: auto;
+		}
+
+		.ficha {
+			background-color: #a31d1d;
+			display: flex;
+			flex-direction: column;
+			flex-basis: 350px;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-bottom: 5%;
+			overflow: scroll;
+			border-color: white;
+			border-width: 5px;
+			border-style: groove;
+			color: white;
+		}
+
+		.presentacion {
+			display: flex;
+			flex-direction: row;
+			color: inherit;
+		}
+
+		.descripcion {
+			width: 100%;
+			color: inherit;
+			margin-left: 1%;
+			margin-right: 1%;
+			line-height: 12px;
+		}
+		.dato{
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		img {
+			-ms-flex-align: start;
+			margin: 2%;
+		}
+		.advertencia{
+			width: 15%;
+			background-color: #d2b582;
+			align-self: flex-end;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="todo">
+		<header>
+			<h1>Belenes el pastorcito Bizco</h1>
+			<h2>Adrián Arnaiz Cano</h2>
+		</header>
+
+		<div class="ficha">
+			<div class="presentacion">
+				<img src="./img/nacimiento.jpg" alt="nacimiento" width="25%">
+				<div>
+					<p><span class="dato">Articulo:</span> Nacimiento</p>
+					<p><span class="dato">Referencia:</span> FEX-856</p>
+					<p><span class="dato">Precio:</span> 551 €</p>
+				</div>
+			</div>
+			<div class="descripcion">
+				<h3><span class="dato">Descripción:</span></h3>
+				<p>Elaborado artesanalmente por el prestigioso artista Jesús Griñán.</p>
+				<p>Figuras fabricadas en barro lienzado y pintadas a mano.</p>
+				<p>Conjunto compuesto por 6 piezas.</p>
+				<p>Tamaño: 32 cm.</p>
+				<p>Tiempo de entrega estimado: 30 días.</p>
+			</div>
+		</div>
+
+		<div class="ficha">
+			<div class="presentacion">
+				<img src="./img/anciano.jpg" alt="anciano" width="25%">
+				<div>
+					<p><span class="dato">Articulo:</span> Anciano con fardo de leña</p>
+					<p><span class="dato">Referencia:</span> FEX-1123</p>
+					<p><span class="dato">Precio:</span> 35 €</p>
+				</div>
+			</div>
+			<div class="descripcion">
+				<h3><span class="dato">Descripción:</span></h3>
+				<p>Elaborado artesanalmente por el prestigioso artista Jesús Griñán.</p>
+				<p>Figura fabricada en barro lienzado y pintada a mano.</p>
+				<p>Conjunto compuesto por 6 piezas.</p>
+				<p>Tamaño: 20 cm.</p>
+				<p>Tiempo de entrega estimado: 30 días.</p>
+			</div>
+		</div>
+
+		<div class="ficha">
+			<div class="presentacion">
+				<img src="./img/nacimiento.jpg" alt="nacimiento" width="25%">
+				<div>
+					<p><span class="dato">Articulo:</span> Campo de cultivo</p>
+					<p><span class="dato">Referencia:</span> ARB-CMP-526</p>
+					<p><span class="dato">Precio:</span> 50 €</p>
+				</div>
+			</div>
+			<div class="descripcion">
+				<h3><span class="dato">Descripción:</span></h3>
+				<p>Dispone de una bomba de agua para simular el riego.</p>
+				<p>La superficie tiene unos orificios por donde el agua se drena.</p>
+				<p>Tamaño: 23x29x16 cm.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
