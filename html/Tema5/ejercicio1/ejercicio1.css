@@ -1,0 +1,29 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav ul a:hover{
+    background-image: linear-gradient(to bottom, slategray, black);
+    color: white;
+}
+nav ul a:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+nav ul a:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
