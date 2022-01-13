@@ -33,13 +33,27 @@ nav ul a{
     padding-right: 8px;
     height: inherit;
 }
+nav ul a:first-child{
+    padding-left: 15%;
+}
+nav ul a:last-child{
+    padding-right: 15%;
+}
 nav ul a li{
     height: inherit;
 }
 nav ul a li p{
     font-size: 12px;
-    font-family: SF_light, arial;
-
+    font-family: SF_regular, arial;
+    padding-top: 4px;
+}
+nav ul a:hover{
+    color: white;
+}
+nav ul a li img{
+    vertical-align: middle;
+    height: 40%;
+    margin-top: 90%;
 }
 img{
     height: 100%;
