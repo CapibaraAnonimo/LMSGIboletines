@@ -1,0 +1,35 @@
+nav{
+    width: 75px;
+    margin: 0;
+    background-color: black;
+}
+nav ul{
+    width: 35px;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+nav ul a li{
+    width: 35px;
+    height: 35px;
+    background-image: url(imagenes/menu.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+nav ul:nth-child(1){
+    background-position: 0px -0px;
+}
+nav ul:nth-child(2){
+    background-position: 0px -35px;
+}
+nav ul a li:nth-child(3){
+    background-position: 0px -70px;
+}
+nav ul a li:nth-child(4){
+    background-position: 0px -105px;
+}
+nav ul a li:nth-child(5){
+    background-position: 0px -140px;
+}
