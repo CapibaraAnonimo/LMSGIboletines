@@ -1,10 +1,14 @@
-nav{
-    width: 75px;
+body{
     margin: 0;
-    background-color: black;
+}
+nav{
+    display: block;
+    width: 105px;
+    background-image: linear-gradient(to bottom, #1c005e, #28007a, #350197, #4201b5, #5001d4, #5801d5, #6000d7, #6700d8, #6500bc, #6000a2, #590089, #500072);
+    margin: 0;
 }
 nav ul{
-    width: 35px;
+    width: 105px;
     padding: 0;
     margin: auto;
     display: flex;
@@ -12,16 +16,22 @@ nav ul{
     list-style: none;
 }
 nav ul a li{
-    width: 35px;
-    height: 35px;
+    width: 105px;
+    height: 105px;
     background-image: url(imagenes/menu.jpg);
-    background-repeat: repeat;
-    background-attachment: scroll;
-}
-nav ul:nth-child(1){
+    background-repeat: no-repeat;
+    background-size: 105px;
+    background-attachment: fixed;
     background-position: 0px -0px;
 }
-nav ul:nth-child(2){
+nav ul a li:hover{
+    transform: translate(50px) scale(1.5, 1.5);
+    transition: transform 1s;
+}
+nav ul a:nth-child(1){
+    background-position: 0px -0px;
+}
+nav ul a:nth-child(2){
     background-position: 0px -35px;
 }
 nav ul a li:nth-child(3){
