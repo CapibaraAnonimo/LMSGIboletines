@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #0040a3, #005fb3, #0078b1, #008da4, #009f96, #00ac93, #00b989, #25c57a, #36d284, #44e08e, #52ed99, #5ffba3);
+    background-attachment: fixed;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+nav ul a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
