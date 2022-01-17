@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 20px;
+}
+nav ul a:hover{
+    background-color: #9B1C26;
+    transform: scaleY(1.1);
+    transition: 0.2s;
+}

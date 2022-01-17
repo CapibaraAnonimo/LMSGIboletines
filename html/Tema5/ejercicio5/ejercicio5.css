@@ -51,6 +51,6 @@ main section {
 
 main section:target {
     display: inherit;
-    border: red solid 2px;
+    border: steelblue solid 2px;
     border-top: transparent;
 }
