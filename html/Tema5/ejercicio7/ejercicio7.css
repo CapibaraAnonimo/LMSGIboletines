@@ -4,13 +4,47 @@ body{
     background-attachment: fixed;
 }
 nav ul{
+    width: fit-content;
     list-style: none;
     display: flex;
     flex-direction: row;
+    padding: 0;
     margin: 0;
 }
 nav ul a{
     text-decoration: none;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+nav ul a li ul{
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+nav ul a li ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+
+
+section{
+    width: 87.12px;
+    background-color: rgba(0, 0, 0, 0.60);
+    
+}
+section div{
+    display: none;
+    width: fit-content;
+    color: white;
+    margin: auto;
+}
+section div:target{
+    display: inherit;
 }
