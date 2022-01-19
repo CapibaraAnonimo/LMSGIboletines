@@ -11,9 +11,9 @@ nav ul a{
     text-decoration: none;
     background-color: #333333;
     padding: 20px;
+    transition: all 0.2s;
 }
 nav ul a:hover{
     background-color: #9B1C26;
     transform: scaleY(1.1);
-    transition: 0.2s;
 }
