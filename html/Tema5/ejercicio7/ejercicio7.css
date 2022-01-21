@@ -3,6 +3,10 @@ body{
     background-image: linear-gradient(to right bottom, #0040a3, #005fb3, #0078b1, #008da4, #009f96, #00ac93, #00b989, #25c57a, #36d284, #44e08e, #52ed99, #5ffba3);
     background-attachment: fixed;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .menu{
     width: fit-content;
     /*width: 423.55px;*/
@@ -15,12 +19,21 @@ nav ul{
     padding: 0;
     margin: 0;
 }
-nav ul a{
+nav>ul>li{
     text-decoration: none;
     height: fit-content;
-    padding: 25px;
+    width: 125px;
     color: white;
     background-color: rgba(0, 0, 0, 0.60);
+    background-size: 125px 68px;
+}
+nav ul li div{
+    width: 125px;
+    height: 60px;
+}
+nav ul li div a{
+    display: block;
+    margin: auto;
 }
 nav ul ul{
     display: flex;
@@ -30,26 +43,11 @@ nav ul ul{
     padding: 0;
     margin: 0;
 }
-nav ul a li ul a{
-    text-decoration: none;
+nav ul ul a{
     padding: 20px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.60);
 }
-
-
-
-section{
-    width: 87.12px;
-    background-color: rgba(0, 0, 0, 0.60);
-    
-}
-section div{
-    display: none;
-    width: fit-content;
-    color: white;
-    margin: auto;
-}
-section div:target{
-    display: inherit;
+nav ul li{
+    display: flex;
+    flex-direction: column;
 }
