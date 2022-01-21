@@ -27,10 +27,10 @@ nav ul a li{
     background-size: 105px;
     background-attachment: fixed;
     background-position: 0px 30px;
+    transition: transform 1s;
 }
 nav ul a li:hover{
     transform: translate(50px) scale(1.5, 1.5);
-    transition: transform 1s;
 }
 nav ul a:nth-child(1){
     background-position: 0px -0px;
