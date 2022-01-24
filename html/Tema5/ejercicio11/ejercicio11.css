@@ -1,0 +1,15 @@
+img{
+    width: 900px;
+    position: relative;
+    animation-name: reloj;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+@keyframes reloj{
+    0%{
+        rotate: 0deg
+    }
+    100%{
+        rotate: 360deg
+    }
+}
