@@ -4,6 +4,7 @@ img{
     animation-name: reloj;
     animation-duration: 60s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes reloj{
     0%{
