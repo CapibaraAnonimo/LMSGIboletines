@@ -34,6 +34,13 @@ nav ul li div{
     width: 125px;
     height: 60px;
 }
+nav ul li div a{
+    width: 125px;
+    height: 60px;
+}
+nav ul li div a p{
+
+}
 nav ul li ul a{
     display: block;
     color: transparent;
@@ -43,7 +50,7 @@ nav ul li ul a{
     margin: auto;
     transition: 0.5s;
 }
-nav ul li:hover ~nav ul li ul a{
+nav ul li:hover > nav ul li ul a{
     height: 60px;
     color: white;
 }
