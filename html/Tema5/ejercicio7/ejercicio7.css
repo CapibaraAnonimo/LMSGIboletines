@@ -36,10 +36,16 @@ nav ul li div{
 }
 nav ul li ul a{
     display: block;
+    color: transparent;
     width: 125px;
-    height: 60px;
+    height: 0;
     padding: 0;
     margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover ~nav ul li ul a{
+    height: 60px;
+    color: white;
 }
 nav ul ul{
     display: flex;
