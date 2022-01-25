@@ -7,6 +7,9 @@ a{
     color: white;
     text-decoration: none;
 }
+li{
+text-align: center;
+}
 .menu{
     width: fit-content;
     /*width: 423.55px;*/
@@ -31,8 +34,11 @@ nav ul li div{
     width: 125px;
     height: 60px;
 }
-nav ul li div a{
+nav ul li ul a{
     display: block;
+    width: 125px;
+    height: 60px;
+    padding: 0;
     margin: auto;
 }
 nav ul ul{
