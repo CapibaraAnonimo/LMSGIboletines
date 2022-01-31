@@ -1,0 +1,29 @@
+table{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    width: 450px;
+}
+td{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+td:first-child{
+    text-align: left;
+}
+tr:first-child td{
+    text-align: center;
+}
+tr td:nth-child(3){
+    background-color: #F2F2F2;
+}
+tr:nth-child(2) td{
+    text-align: center;
+    font-weight: bold;
+    background-color: #CECECE;
+    border-bottom: black ;
+}
