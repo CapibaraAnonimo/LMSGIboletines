@@ -1,0 +1,71 @@
+img{
+    height: 100%;
+}
+main{
+    width: 500px;
+    height: 500px;
+}
+div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+}
+.segundero{
+    left: 234px;
+    top: 31px;
+}
+.segundero img{
+    height: 87%;
+    animation-name: segundero;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.minutero{
+    left: 236px;
+    top: 40px;
+}
+.minutero img{
+    height: 84.5%;
+    animation-name: minutero;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.hora{
+    left: 238px;
+    top: 80px;
+}
+.hora img{
+    height: 37.6%;
+    animation-name: hora;
+    animation-duration: 43200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes segundero{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes minutero{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes hora{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

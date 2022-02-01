@@ -4,6 +4,7 @@ table{
     border-width: 1px;
     border-collapse: collapse;
     width: 450px;
+    margin: auto;
 }
 td{
     text-align: center;
@@ -25,5 +26,11 @@ tr:nth-child(2) td{
     text-align: center;
     font-weight: bold;
     background-color: #CECECE;
-    border-bottom: black ;
+    border-bottom: black 2px solid;
+}
+tr:first-child td{
+    border-color: white;
+    border-bottom: black 1px solid;
+    font-weight: bold;
+    font-size: 20px;
 }
