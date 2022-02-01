@@ -1,0 +1,14 @@
+td{
+    background-color: lightblue;
+    padding: 10px;
+}
+th{
+    background-color: aquamarine;
+    padding: 10px;
+}
+tbody:hover{
+    background-color: rgb(150, 184, 196);
+}
+caption{
+    background-color: cadetblue;
+}
