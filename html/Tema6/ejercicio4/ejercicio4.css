@@ -1,0 +1,18 @@
+img{
+    width: 25px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px black solid;
+}
+tr:nth-child(odd){
+    background-color: #F5F5F5;
+}
+thead tr th{
+    background-color: white;
+}
+th{
+    border: 1px black solid;
+}
