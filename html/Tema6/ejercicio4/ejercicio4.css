@@ -10,6 +10,14 @@ table{
 }
 td{
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table tbody tr td:nth-child(11), table tbody tr td:nth-child(18){
+    padding-right: 30px;
+}
+table tbody tr td:nth-child(2){
+    padding-left: 15px;
 }
 tr:nth-child(odd){
     background-color: #F5F5F5;
@@ -20,8 +28,15 @@ thead tr:first-child{
 thead tr:last-child{
     border-bottom: 2px red solid;
 }
+tr:hover{
+    background-color: #e2e1e1;
+}
 thead tr th{
     background-color: white;
+    text-align: left;
+}
+thead tr:first-child th{
+    text-align: center;
 }
 tbody tr td:first-child{
     width: 4px;
@@ -30,7 +45,7 @@ tbody tr td:first-child{
 tbody tr td div{
     background-color: lightgray;
     width: 4px;
-    height: 30px;
+    height: 37px;
     margin: auto;
 }
 .verde{
