@@ -1,0 +1,14 @@
+form{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+input{
+    width: 15px;
+}
+#nombre, #apellidos, #edad, #email{
+    width: 130px;
+}
+#submit{
+    width: 100px;
+    margin-left: 20px;
+}
