@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background: url(img/fondo.png) repeat-x center center fixed;
+    background-size: contain;
+}
+header{
+    background-image: url(img/tile.png);
+}
+main{
+    width: 100%;
+    height: 100%;
+}
