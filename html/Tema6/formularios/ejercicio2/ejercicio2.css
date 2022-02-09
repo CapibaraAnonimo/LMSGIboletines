@@ -27,3 +27,9 @@ input{
     background-color: rgba(13, 10, 30, 0.90);
     border: 1px solid #000;
 }
+input{
+    color: white;
+}
+tr p{
+    font-size: 11px;
+}
