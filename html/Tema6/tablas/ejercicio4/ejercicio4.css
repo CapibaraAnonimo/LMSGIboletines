@@ -57,3 +57,23 @@ tbody tr td div{
 .rojo{
     background-color: red;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    width: 983px;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul div{
+    width: 5px;
+    height: 19px;
+    margin: 0;
+    margin-right: 5px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
