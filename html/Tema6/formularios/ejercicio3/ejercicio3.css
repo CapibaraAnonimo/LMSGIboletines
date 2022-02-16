@@ -24,13 +24,17 @@ fieldset div label{
     padding-bottom: 7px;
 }
 fieldset:nth-child(1) div input:nth-child(1){
-    width: 50%;
+    width: 35%;
+}
+
+fieldset:nth-child(2) div:first-child div{
+    width: 35%;
 }
 #codigopostal{
-    width: 30%;
+    width: 95%;
 }
 #municipio{
-    width: 40%;
+    width: 95%;
 }
 .titulo{
     font-weight: bold;
