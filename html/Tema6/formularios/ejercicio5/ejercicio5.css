@@ -1,0 +1,21 @@
+main{
+    width: 650px;
+    margin: auto;
+}
+fieldset{
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+fieldset div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+fieldset>label{
+    width: 150px;
+}
+#alta{
+    margin-left: auto;
+}
