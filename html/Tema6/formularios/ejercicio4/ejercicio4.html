@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Ejercicio 3 - Formulario de alta</title>
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type='text/css' href='ejercicio4.css'>
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2>Formulario de alta</h2>
+        <form method="post" action="#">
+            <fieldset>
+                <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
+                <div>
+                    <input id="nombre" name="nombre" value="" />
+                    <label for="nombre">Nombre</label>
+
+                    <input id="apellido1" name="apellido1" value="" />
+                    <label for="apellido1">Primer apellido</label>
+
+                    <input id="apellido2" name="apellido2" value="" />
+                    <label for="apellido2">Segundo apellido</label>
+
+                </div>
+                <p class="ayuda">No te olvides de escribir también tu segundo apellido</p>
+            </fieldset>
+            <fieldset>
+                <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+                <div>
+                    <input id="direccion" name="direccion" value="" />
+                    <label for="direccion">Calle, número, piso, puerta</label>
+
+                    <div>
+                        <input id="codigopostal" name="codigopostal" value="" />
+                        <label for="codigopostal">Código postal</label>
+                    </div>
+                    <div>
+                        <input id="municipio" name="municipio" value="" />
+                        <label for="municipio">Municipio</label>
+                    </div>
+
+                    <select id="provincia" name="provincia">
+                        <option value=""></option>
+                        <option value="provincia1">Provincia 1</option>
+                        <option value="provincia2">Provincia 2</option>
+                        <option value="provincia3">Provincia 3</option>
+                    </select>
+                    <label for="provincia">Provincia</label>
+
+                    <select id="pais" name="pais">
+                        <option value=""></option>
+                        <option value="pais1">País 1</option>
+                        <option value="pais2">País 2</option>
+                        <option value="pais3">País 3</option>
+                    </select>
+                    <label for="pais">País</label>
+                </div>
+                <p class="ayuda">El código postal es imprescindible para poder recibir los pedidos</p>
+            </fieldset>
+            <fieldset>
+                <label class="titulo" for="email">Email</label>
+                <div>
+                    <input id="email" name="email" value="" />
+                </div>
+                <p class="ayuda">Asegúrate de que sea váfieldsetdo</p>
+            </fieldset>
+            <fieldset>
+                <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+                <div>
+                    <input id="telefonofijo" name="telefonofijo" value="" />
+                    <label for="telefonofijo">Fijo</label>
+
+                    <input id="telefonomovil" name="telefonomovil" value="" />
+                    <label for="telefonomovil">Móvil</label>
+                </div>
+                <p class="ayuda">Sin prefijo de país y sin espacios en blanco</p>
+            </fieldset>
+            <fieldset>
+                <input id="alta" type="submit" value="Darme de alta &rarr;" />
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
