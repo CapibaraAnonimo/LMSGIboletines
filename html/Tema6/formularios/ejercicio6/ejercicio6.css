@@ -1,0 +1,45 @@
+main{
+    width: 650px;
+    margin: auto;
+}
+fieldset{
+    border-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: lightgray 1px solid;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+fieldset:hover{
+    background-color: #FF9;
+}
+input:hover{
+    border-color: #E6B700;
+}
+fieldset div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 74%;
+}
+fieldset>label{
+    padding: 7px;
+    width: 150px;
+    font-weight: bold;
+}
+.requerido{
+    color: red;
+}
+#alta{
+    margin-left: auto;
+}
+.ayuda{
+    display: none;
+    width: 100%;
+    padding: 10px;
+}
+fieldset:hover .ayuda{
+    display: block;
+}
