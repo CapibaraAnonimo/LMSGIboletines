@@ -15,6 +15,9 @@ fieldset{
 fieldset:hover{
     background-color: #FF9;
 }
+input{
+    height: 15px;
+}
 input:hover{
     border-color: #E6B700;
 }
@@ -24,10 +27,27 @@ fieldset div{
     flex-wrap: wrap;
     width: 74%;
 }
+fieldset div div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+fieldset div div:nth-of-type(1){
+    padding-right: 40px;
+}
+fieldset div div:nth-of-type(3){
+    padding-right: 40px;
+}
+fieldset:nth-child(2)>div>input{
+    width: 100%;
+}
 fieldset>label{
     padding: 7px;
     width: 150px;
     font-weight: bold;
+}
+fieldset>div>label{
+    width: 100%;
 }
 .requerido{
     color: red;
