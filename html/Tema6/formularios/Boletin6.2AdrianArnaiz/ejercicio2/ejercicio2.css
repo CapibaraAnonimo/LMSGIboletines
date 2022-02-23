@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    background: url(img/fondo.png) repeat-x center center fixed;
+    background-size: contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-image: url(img/tile.png);
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    margin: 6px;
+    padding: 0;
+}
+li{
+    padding-left: 4px;
+    padding-right: 1px;
+    font-size: 80%;
+}
+li:last-child::before{
+    content: "»";
+}
+li:last-child a{
+    margin: auto;
+}
+table{
+    background-color: rgba(22, 28, 55, 0.85);
+    color: white;
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 607px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 13px;
+    margin-left: 6px;
+}
+th{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+td{
+    border: 1px solid black;
+}
+tr:nth-child(6) td div{
+    text-align: center;
+}
+thead{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+}
+thead tr{
+    background-color: rgba(118, 8, 0, 0.85);
+    text-align: center;
+}
+input{
+    background-color: rgba(13, 10, 30, 0.90);
+    border: 1px solid #000;
+}
+input{
+    color: white;
+}
+tr p{
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+    color: #FFC040;
+    font-weight: bold;
+}
+.navigation{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 130px;
+}
+.navigation table{
+    width: inherit;
+    font-size: 11px;
+}
+.navigation td{
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.goomba{
+    width: 16px;
+    height: 16px;
+    background-image: url(img/goomba.png);
+    background-position: 0 0;
+    animation-name: andar, pies;
+    animation-duration: 100s, 0.1s;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: infinite, infinite;
+    animation-direction: alternate, alternate;
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+}
+.goomba:nth-child(2){
+    animation-delay: 5s;
+}
+.goomba:nth-child(3){
+    animation-delay: 9s;
+}
+.goomba:nth-child(4){
+    animation-delay: 16s;
+}
+.goomba:nth-child(5){
+    animation-delay: 20s;
+}
+.goomba:active{
+    animation-name: muerto;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes andar{
+    0%{
+        background-position: 0 0;
+        bottom: 0;
+        right: 100%;
+    }
+    49.999%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: -16px 0;
+    }
+    99.99%{
+        background-position: -16px 0;
+        right: 0;
+    }
+}
+@keyframes pies{
+    0%{
+        background-position: 0 0;
+    }
+    49.999%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: -16px 0;
+    }
+    99.99%{
+        background-position: -16px 0;
+    }
+}
+@keyframes muerto{
+    0%{}
+    0.001%{
+        background-position: -32px;
+    }
+    99.999%{
+        display: block;
+    }
+    100%{
+        display: none;
+    }
+}
