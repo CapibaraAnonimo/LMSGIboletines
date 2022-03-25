@@ -7,9 +7,9 @@ window.onload = function () {
     let penultimoEnlace = document.querySelectorAll("a")[enlaces - 2];
     alert(penultimoEnlace)
 
-    // Numero de enlaces que apuntan a http://prueba
+    // Número de enlaces que apuntan a http://prueba
     let enlacesPrueba = document.querySelector("");
 
-    // Numero de enlaces del tercer p�rrafo
+    // Número de enlaces del tercer párrafo
 
 };
