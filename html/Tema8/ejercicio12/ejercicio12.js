@@ -6,5 +6,6 @@ function muestra() {
     let antiguo = document.getElementsByTagName("enlace")[0];
     let nuevo = document.createElement("p");
     nuevo.innerHTML = " COSAS NUEVAS";
-    antiguo.parentNode.replaceChild(nuevo, antiguo);
+    antiguo.innerHTML = "";
+    antiguo.appendChild(nuevo);
 }
