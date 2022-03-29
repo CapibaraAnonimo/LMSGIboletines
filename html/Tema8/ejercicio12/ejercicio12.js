@@ -1,6 +1,7 @@
 document.getElementById("texto").style.display = "none";
 
 function muestra() {
+    alert("entra aquí");
     /*let a = document.getElementsByTagName("enlace");
     let nuevoTexto = document.createElement("p");
     nuevoTexto.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur corporis debitis dignissimos ducimus eius ipsa ipsam molestiae non qui ratione rem, rerum sunt voluptas! Autem cupiditate iure praesentium?";
