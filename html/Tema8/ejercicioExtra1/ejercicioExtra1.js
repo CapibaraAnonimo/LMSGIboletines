@@ -17,11 +17,11 @@ alert("La suma es " + suma);
 
 do {
     numero = +prompt("Introduzca un número no negativo (negativo para salir)", "0")
-    if (numero >= 0){
+    if (numero >= 0) {
         suma -= lista.shift();
         suma += numero;
         lista.push(numero);
         alert("La suma es " + suma)
     }
-}while(numero >= 0);
+} while (numero >= 0);
 
