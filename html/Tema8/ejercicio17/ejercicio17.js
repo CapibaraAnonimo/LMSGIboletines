@@ -1,4 +1,4 @@
-let cX;
+document.body.addEventListener("mousemove", muestraInformacion)
 
 function muestraInformacion(mensaje) {
     let info = document.getElementById("info");
