@@ -1,25 +1,25 @@
 let cuerpo = document.body;
+cuerpo.style.cssText += "margin: 0;" +
+    "height: 100vh;"
 cuerpo.addEventListener("mousemove", mostrarPosicion);
-cuerpo.innerHTML += "Body"
-cuerpo.style.cssText += "font-size = 40px" +
-    "width 1500px;" +
-    "height = 1500px;" +
-    "background-color = black;";
 
 
 function mostrarPosicion(data) {
-    alert("Se entra");
     let info;
-    if (!document.body.hasChildNodes()) {
-        document.body.appendChild(document.createElement("div"));
+    if (cuerpo.querySelectorAll("body div").length === 0) {
+        cuerpo.appendChild(document.createElement("div"));
         info = document.querySelector("body div");
     } else {
         info = document.querySelector("body div");
     }
-    document.body.style.cssText += "width = 100px;" +
-        "background-color = black;";
 
-    if (data.clientX >= window.screenX / 2 && data.clientY >= window.screenY / 2) {
-        info.innerHTML += "El cursor está arriba a la izquierda";
+    if (data.clientX >= (screen.width / 2) && data.clientY >= (screen.height / 2)) {
+        info.innerHTML = "El cursor está abajo a la derecha";
+    } else if (data.clientX >= (screen.width / 2) && data.clientY < (screen.height / 2)) {
+        info.innerHTML = "El cursor está arriba a la derecha";
+    } else if (data.clientX < (screen.width / 2) && data.clientY >= (screen.height / 2)) {
+        info.innerHTML = "El cursor está abajo a la izquierda";
+    } else if (data.clientX < (screen.width / 2) && data.clientY < (screen.height / 2)) {
+        info.innerHTML = "El cursor está arriba a la izquierda";
     }
 }
